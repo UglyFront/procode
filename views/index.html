@@ -1,0 +1,489 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/app.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <title>Pro Code</title>
+
+</head>
+
+<body>
+
+
+    <div id="blocked" onclick="closed()">
+        <div id="window">
+         <h1 class = "modal__header"><span class="accent">СУБСИДИЯ</span> ОТ ГОСУДАРСТВА НА РАЗВИТИЕ <br/><span class="accent">БЕЗВОЗМЕЗДНО</span></h1></br>
+            
+         <h2 class = "modal__money"> <span class="accent_green">250</span> 000₽</h2>
+       <p id="we-order"><span class="accent">Мы</span> оформляем! </p>
+        <p id="you-get"><span class="accent">Вы</span> просто получаете!</p>
+       <a href="./secondPage"> <div class="modal__btn">ПОДРОБНЕЕ</div></a>
+
+            <div id="close_modal">X</div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+
+        <header>
+            <div class="container">
+
+                <nav class="main-nav  wow fadeInDown" data-wow-delay='1s'>
+                    <img class="header__logo" src="./images/logo.svg" alt="logo">
+
+                    <ul class="main-menu">
+                        <li><a class="main-menu__link" href="#">О компании</a></li>
+                        <li><a class="main-menu__link" href="#">Франшиза</a></li>
+                        <li><a class="main-menu__link" href="#">Стать партнером</a></li>
+                        <li><a class="main-menu__link" href="#">Отзывы</a></li>
+                        <!-- <li><a class="main-menu__link" href="#"></a></li> -->
+                    </ul>
+
+                    <ul class="main-nav__messagers">
+                        <li>Быстрая связь<br />в мессенджере</li>
+                        <li><a class="messager" href="https://tgme.pro/ProCode99"><img src="./images/telegram.svg" alt="telegram"></a></li>
+                        <li><a class="messager" href="https://api.whatsapp.com/send?phone=79188648136"><img src="./images/whatsapp.svg" alt="whatsapp"></a></li>
+                    </ul>
+
+                    <img class="burger" id="burger" src="./images/burger-.png" alt="burger">
+
+                    <div class="headear-contacts">
+                        <p class="headear-contacts__phone">+7 (918) 864-81-36</p>
+                        
+                        <p class="headear-contacts__shedule">Ежедневно 10:00 - 20:00</p>
+                    </div>
+                </nav>
+
+                <nav class="adaptive-nav" id="adaptive-nav">
+
+                    <div onclick="event.stopPropagation()" class="adaptive-nav__inner" id="adaptive-nav__inner">
+
+
+                        <ul class="main-menu-adaptive">
+                            <li><a class="main-menu__link  main-menu__link--adaptive" href="#">О компании</a></li>
+                            <li><a class="main-menu__link  main-menu__link--adaptive" href="#">Франшиза</a></li>
+                            <li><a class="main-menu__link  main-menu__link--adaptive" href="#">Стать партнером</a></li>
+                            <li><a class="main-menu__link  main-menu__link--adaptive" href="#">Отзывы</a></li>
+                            <li><a class="main-menu__link  main-menu__link--adaptive" href="#"></a></li>
+                        </ul>
+
+                        <ul class="main-nav__messagers main-nav__messagers--adaptive">
+                            <li><a class="messager messager--adaptive" href="https://tgme.pro/ProCode99"><img src="./images/telegram.svg"
+                                        alt="telegram"></a></li>
+                            <li><a class="messager messager--adaptive" href="https://api.whatsapp.com/send?phone=79188648136"><img src="./images/whatsapp.svg"
+                                        alt="whatsapp"></a></li>
+                        </ul>
+
+                        <div class="headear-contacts headear-contacts--adaptive">
+                            <p class="headear-contacts__phone">+7 (918) 864-81-36</p>
+                            <p class="headear-contacts__shedule">Ежедневно 10:00 - 20:00</p>
+                        </div>
+
+                    </div>
+                </nav>
+
+                <div class="banner">
+
+                    <div class="banner__advantages-container">
+
+                        <h2 class="banner__header wow">
+                            откройте <span class="accent">бизнес</span>, который работает и <span
+                                class="accent">вдохновляет</span>
+                        </h2>
+
+                        <div class="advantages-box wow fadeIn" data-wow-delay='.5s'>
+
+                            <div class="advantages__img wow fadeInLeft" data-wow-delay='.5s'>
+                                <img src="./images/banner-girl.svg" alt="banner-girl">
+                            </div>
+
+                            <div class="banner__advantages">
+                                <h3 class="advantages__header">Наши <span class="accent">преимущества</span></h3>
+
+
+                                <div class="banner__advantage-item">
+                                    <span class="advantage-item-count advantage-item-count--first">1</span>
+                                    <!-- <p>
+                                        Бизнес <span class="accent">«под ключ»</span>и поддержка <br />
+                                        на всех этапах развития
+                                    </p> -->
+                                    <p>Бизнес под ключ и <span class="accent">личное</span> участие в запуске на всех этапах</p>
+                                </div>
+
+                                <div class="banner__advantage-item">
+                                    <span class="advantage-item-count">2</span>
+                                    <p>
+                                        <span class="accent">Быстрый запуск</span> школы с <br>
+                                        минимальными вложениями
+                                    </p>
+
+                                </div>
+
+                                <div class="banner__advantage-item">
+                                    <span class="advantage-item-count">3</span>
+                                    <!-- <p>
+                                        <span class="accent">Востребованный продукт</span> и регулярно <br>
+                                        обновляемая линейка курсов
+                                    </p> -->
+                                    <p>Актуальные направления курсов для <span class="accent">любого</span> возраста</p>
+                                </div>
+
+                                <div class="banner__advantage-item">
+                                    <span class="advantage-item-count">4</span>
+                                    <!-- <p>
+                                        <span class="accent">Готовые IT-решения</span> для обучения <br>
+                                        детей и управления бизнесом
+                                    </p> -->
+                                    <p>Готовое решение для <span class="accent">гарантированного</span> получения субсидии от государства.</p>
+                                </div>
+
+                            </div>
+
+
+                            <a class="banner__send--adaptive-link" href="#forma">ОСТАВИТЬ ЗАЯВКУ</a>
+
+                        </div>
+                    </div>
+
+
+                    <div class="banner__form wow fadeInRight" data-wow-delay='.5s'>
+                        <form>
+                            <div class="banner__form__item">
+                                <label for="name">Имя</label>
+                                <input class="banner__form__input" type="text" id="name" required>
+                            </div>
+                            <div class="banner__form__item">
+                                <label for="phone">Телефон</label>
+                                <input class="banner__form__input" type="tel" id="phone" required>
+                            </div>
+                            <div class="banner__form__item">
+                                <label for="email">Электронная почта</label>
+                                <input class="banner__form__input" type="email" id="email" required>
+                            </div>
+                            <div class="banner__form__item">
+                                <label for="city">Укажите ваш город</label>
+                                <input class="banner__form__input" type="text" id="city" required>
+                            </div>
+
+                            <div class="banner__form__send">
+                                <button type="submit" class="banner__form__send-btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+                            </div>
+
+                        </form>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </header>
+
+
+        <main>
+
+            <div class="presentation-container">
+                <div class="decor-item-top"></div>
+
+                <div class="presentation__modal" id="presentation__modal">
+
+                    <div onclick="event.stopPropagation()" class="presentation__modal-inner" id="presentation__modal_inner">
+
+                        <h3 class="presentation__modal-header">Оставьте Ваш номер телефона и мы Вам Перезвоним!</h3>
+
+                        <input class="callBackPhone cbName" type="text" placeholder="Как к Вам обращаться?">
+                        <input class="callBackPhone cbPhone" type="number"  placeholder="Номер телефона">
+                        <input class="callBackPhone cbQuestion" type="text"  placeholder="Кратко опишите свой вопрос">
+
+                        <button id="presentation__modal-sendBtn">Отправить!</button>
+
+                    </div>
+
+                </div>
+
+                <div class="presentation">
+                    <img class="presentation_chest" src="./images/чемодан.svg" alt="чемодан">
+
+                    <h2 class="presentation__header  wow fadeInDown">Хотите узнать больше о <span class="accent">pro code?</span></h2>
+
+                    <div class="presentation__inner ">
+                        <img class="presentation__img" src="./images/presentation-girl.png" alt="presentation-girl">
+
+                        <div class="presentation__get">
+                            <a class="presentation__get-btn" id="callBackBtn" >Обратный звонок</a>
+                            <p align = "center" class="presentation__get__text">Мы перезвоним Вам в течениe дня!<br> 
+                            </p>
+                        </div>
+
+
+                    </div>
+
+                    <img class="presentation__rocket" src="./images/ракета.svg " alt="ракета">
+                </div>
+                <div class="decor-item-bottom"></div>
+            </div>
+
+            <div class="container franchise-container">
+
+                <div class="franchise__description-box ">
+
+                    <div class="franchise__description  wow slideInLeft">
+                        <h2 class="franchise__description__header"><span class="accent">Наша франшизная сеть</span> <br>
+                            растет каждый год</h2>
+
+                        <p class="franchise__description__text">Школы PRO CODE открываются как <span class="accent">в
+                                небольших городах СНГ</span> с населением до 20 тысяч человек, так
+                            и в <span class="accent">миллионниках</span>.
+                        </p>
+
+                        <p class="franchise__description__text">За 2020 год, который был непростым для большинства
+                            бизнесов, количество партнеров PRO CODE <span class="accent">удвоилось</span>.</p>
+
+                    </div>
+
+                    <img class = "wow slideInRight" src="./images/franchise-girl.png" alt="franchise-girl">
+                </div>
+
+                <div class="franchise__profit">
+
+                    <h2 class="franchise__profit__header">Зарабатывайте с минимальными вложениями</h2>
+
+                    <div class="franchise__profit__inner">
+
+                        <div class="profit__list-box wow fadeInLeft" data-wow-delay=".6s">
+                            <ul class="profit__list">
+                                <li class="profit__list__item">Вложения от 500 000₽</li>
+                                <li><img src="./images/arrow.png" alt="arrow"></li>
+                                <li class="profit__list__item">6 недель на запуск</li>
+                                <li><img src="./images/arrow.png" alt="arrow"></li>
+                                <li class="profit__list__item">Операционная прибыль - уже через месяц</li>
+                                <li><img src="./images/arrow.png" alt="arrow"></li>
+                                <li class="profit__list__item">Выход на окупаемость от 3 месяцев</li>
+                                <li><img src="./images/arrow.png" alt="arrow"></li>
+                                <li class="profit__list__item">Чистая прибыль от 150 000₽ в месяц </li>
+                            </ul>
+                        </div>
+
+                        <img class="profit-girl wow fadeInRight" data-wow-delay=".6s" src="./images/profit-girl-.png" alt="profit-girl">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="courses-container">
+                <div class="courses__decor-top-item"></div>
+
+                <h2 class="courses__header">КУРСЫ ПРОГРАММИРОВАНИЯ И it специальностей</h2>
+
+                <div class="courses__slider" id="courses__slider">
+                    <!-- сюда вставляются курсы -->
+                </div>
+
+                <div class="courses__slider-handler" id="slider-handler">
+
+                    <div class="count-page" id="count-page"></div>
+
+                    <div class="slider__decr" onclick="decr()"><</div>
+                    <div class="slider__incr" onclick="incr()">></div>
+
+                </div>
+
+                <div class="courses__decor-bottom-item"></div>
+
+            </div>
+
+
+            <div class="connect-container">
+                <div class="connect-container__content-zone">
+                    <div class="connect__flex-wrapper">
+
+                        <div class="connect__info">
+                            <h2 class="header-two-lvl__connect wow fadeInDown">Оставьте заявку, и мы свяжемся с вами в течение дня:</h2>
+
+                            <div class="connect__info-wrapper wow bounceInLeft">
+                                <div class="connect__info__el">
+                                    <img src="./images/connect-1.png" alt="">
+                                    <p class="connect__info__el__p">Перезвоним, ответим на вопросы и договорится о
+                                        дальнейшем взаимодействии</p>
+                                </div>
+                                <div class="connect__info__el">
+                                    <img src="./images/connect-2.png" alt="">
+                                    <p class="connect__info__el__p">Отправим на почту подробную презентацию о франшизе
+                                    </p>
+                                </div>
+                                <div class="connect__info__el">
+                                    <img src="./images/connect-3.png" alt="">
+                                    <p class="connect__info__el__p">Рассчитаем стоимость франшизы для вашего города</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="banner__form wow bounceInRight" id="forma">
+                            <form>
+
+                                <div class="banner__form__item">
+                                    <label for="second-form-name">Имя</label>
+                                    <input class="banner__form__input" type="text" id="second-form-name" required>
+                                </div>
+                                <div class="banner__form__item">
+                                    <label for="second-form-phone">Телефон</label>
+                                    <input class="banner__form__input" type="tel" id="second-form-phone" required>
+                                </div>
+                                <div class="banner__form__item">
+                                    <label for="second-form-email">Электронная почта</label>
+                                    <input class="banner__form__input" type="email" id="second-form-email" required>
+                                </div>
+                                <div class="banner__form__item">
+                                    <label for="second-form-city">Укажите ваш город</label>
+                                    <input class="banner__form__input" type="text" id="second-form-city" required>
+                                </div>
+
+                                <div class="banner__form__send">
+                                    <button class="banner__form__send-btn" id="secondBtn">ОТПРАВИТЬ ЗАЯВКУ</button>
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="quetions-container">
+                <div class="quetions-container__content-zone">
+                    <h2 class="quetions-header">Ответы на популярные вопросы</h2>
+                    <div class="quetions__accordeon">
+                        <p class="accordeon__el" answer=0> <span class="plus" answer=0>+</span> У меня нет опыта ни в программировании, ни в преподавании —<br/>
+                            смогу ли я стать вашим партнером?
+                            <br>
+                        <div class="answer-el">Да! Чтобы запуститься и начать работу вам нужно просто следовать методическим материалом. С этим вполне справится человек без профильного образования.
+                            <hr/>
+                        </div>
+                        
+                        </p>
+                        <p class="accordeon__el" answer=1><span class="plus" answer=1>+</span>У меня нет опыта в бизнесе — смогу ли я стать<br/> вашим партнером? 
+                            <br>
+                        <div class="answer-el">Конечно! Чтобы стать нашим партнером Вам необходимо только желание. Мы расскажем как это сделать без специальной подготовки.
+
+                            <hr/>
+                        </div>
+                        </p>
+
+                        <p class="accordeon__el" answer=2><span class="plus" answer=2>+</span>Где мне искать преподавателей и как их обучать? <br/>
+                            <br>
+                        <div class="answer-el">Обо всем этом мы рассказываем при запуске школы. Но у вас точно не возникнет проблем найти преподавателя!
+                            <hr/>
+                        </div>
+                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="map-conatiner">
+                <div class="map-container__content-zone">
+                    <div class="map-wrapper">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.372949949719!2d37.61530535188186!3d55.752023280457756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a50b315e573%3A0xa886bf5a3d9b2e68!2z0JzQvtGB0LrQvtCy0YHQutC40Lkg0JrRgNC10LzQu9GM!5e0!3m2!1sru!2sru!4v1649875737473!5m2!1sru!2sru"
+                            width="760" height="480" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                        <div class="invite">
+                            <h4>ПРИГЛАШАЕМ НА ЭКСКУРСИЮ</h4>
+                            <p>Угостим чаем, вживую <br /> персонально покажем<br /> площадки и оборудование,<br />
+                                чтобы вы оценили масштаб<br /> проведения вашего будущего<br /> праздника!</p>
+                            <div class="invite-adress">
+                                <svg width="30" height="30" viewBox="0 0 28 28" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M14 0C21.732 0 28 6.26801 28 14C28 21.732 21.732 28 14 28C6.26801 28 0 21.732 0 14C0 6.26801 6.26801 0 14 0ZM14 4.74243C10.1457 4.74243 7.02051 7.86763 7.02051 11.7219C7.02051 12.8895 7.34043 14.4307 7.99808 15.3022L14 23.2576L20.002 15.3023C20.726 14.3427 20.9795 13.0109 20.9795 11.722C20.9795 7.86763 17.8543 4.74243 14 4.74243ZM14 8.78589C15.6217 8.78589 16.936 10.1002 16.936 11.7219C16.936 13.3437 15.6217 14.658 14 14.658C12.3783 14.658 11.064 13.3437 11.064 11.7219C11.064 10.1002 12.3783 8.78589 14 8.78589Z"
+                                        fill="#242424" />
+                                </svg>
+                                <span>
+                                    г. Ставрополь<br />
+                                    ул. Ленина 88
+                                </span>
+                            </div>
+                            <div class="invite-msg">
+                                <p>Быстрая связь в мессенджере</p>
+                                <svg width="35" height="35" viewBox="0 0 29 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="29" height="27" rx="13.5" fill="#EFEFEF" />
+                                    <path
+                                        d="M20.0348 7.0012C19.8743 7.01287 19.7168 7.05053 19.5683 7.1127H19.5663C19.4238 7.1692 18.7463 7.4542 17.7163 7.8862L14.0253 9.4407C11.3768 10.5557 8.77332 11.6537 8.77332 11.6537L8.80432 11.6417C8.80432 11.6417 8.62482 11.7007 8.43732 11.8292C8.32148 11.9029 8.2218 11.9994 8.14432 12.1127C8.05232 12.2477 7.97832 12.4542 8.00582 12.6677C8.05082 13.0287 8.28482 13.2452 8.45282 13.3647C8.62282 13.4857 8.78482 13.5422 8.78482 13.5422H8.78882L11.2303 14.3647C11.3398 14.7162 11.9743 16.8022 12.1268 17.2827C12.2168 17.5697 12.3043 17.7492 12.4138 17.8862C12.4668 17.9562 12.5288 18.0147 12.6033 18.0617C12.642 18.0842 12.6833 18.102 12.7263 18.1147L12.7013 18.1087C12.7088 18.1107 12.7148 18.1167 12.7203 18.1187C12.7403 18.1242 12.7538 18.1262 12.7793 18.1302C13.1658 18.2472 13.4763 18.0072 13.4763 18.0072L13.4938 17.9932L14.9353 16.6807L17.3513 18.5342L17.4063 18.5577C17.9098 18.7787 18.4198 18.6557 18.6893 18.4387C18.9608 18.2202 19.0663 17.9407 19.0663 17.9407L19.0838 17.8957L20.9508 8.3312C21.0038 8.0952 21.0173 7.8742 20.9588 7.6597C20.8985 7.44261 20.7592 7.2559 20.5683 7.1362C20.408 7.03875 20.2222 6.99172 20.0348 7.0012V7.0012ZM19.9843 8.0262C19.9823 8.0577 19.9883 8.0542 19.9743 8.1147V8.1202L18.1248 17.5852C18.1168 17.5987 18.1033 17.6282 18.0663 17.6577C18.0273 17.6887 17.9963 17.7082 17.8338 17.6437L14.8788 15.3782L13.0938 17.0052L13.4688 14.6102L18.2968 10.1102C18.4958 9.9252 18.4293 9.8862 18.4293 9.8862C18.4433 9.6592 18.1288 9.8197 18.1288 9.8197L12.0408 13.5912L12.0388 13.5812L9.12082 12.5987V12.5967L9.11332 12.5952C9.11843 12.5935 9.12344 12.5915 9.12832 12.5892L9.14432 12.5812L9.15982 12.5757C9.15982 12.5757 11.7653 11.4777 14.4138 10.3627C15.7398 9.8042 17.0758 9.2417 18.1033 8.8077C19.1308 8.3762 19.8903 8.0597 19.9333 8.0427C19.9743 8.0267 19.9548 8.0267 19.9843 8.0267V8.0262Z"
+                                        fill="#44ABEC" />
+                                </svg>
+
+                                <svg width="35" height="35" viewBox="0 0 29 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="29" height="27" rx="13.5" fill="#EFEFEF" />
+                                    <path
+                                        d="M19.3903 8.94003C18.776 8.32265 18.0443 7.83315 17.2379 7.50007C16.4316 7.167 15.5666 6.99701 14.6935 7.00004C11.0352 7.00004 8.0536 9.9667 8.0536 13.6067C8.0536 14.7734 8.36181 15.9067 8.93802 16.9067L8 20.3333L11.5176 19.4133C12.4891 19.94 13.5812 20.22 14.6935 20.22C18.3518 20.22 21.3333 17.2533 21.3333 13.6134C21.3333 11.8467 20.6432 10.1867 19.3903 8.94003V8.94003ZM14.6935 19.1C13.7018 19.1 12.7303 18.8333 11.8794 18.3333L11.6784 18.2133L9.58794 18.76L10.1441 16.7333L10.0101 16.5267C9.45913 15.6513 9.16659 14.6395 9.16583 13.6067C9.16583 10.58 11.6449 8.11337 14.6868 8.11337C16.1608 8.11337 17.5477 8.6867 18.5863 9.7267C19.1005 10.236 19.508 10.8418 19.7852 11.509C20.0624 12.1762 20.2037 12.8914 20.201 13.6134C20.2144 16.64 17.7353 19.1 14.6935 19.1V19.1ZM17.7219 14.9934C17.5544 14.9134 16.737 14.5134 16.5896 14.4534C16.4355 14.4 16.3283 14.3734 16.2144 14.5334C16.1005 14.7 15.7856 15.0734 15.6918 15.18C15.598 15.2934 15.4975 15.3067 15.33 15.22C15.1625 15.14 14.6265 14.96 13.9966 14.4C13.5008 13.96 13.1725 13.42 13.072 13.2534C12.9782 13.0867 13.0586 13 13.1457 12.9134C13.2194 12.84 13.3132 12.72 13.3936 12.6267C13.474 12.5334 13.5075 12.46 13.5611 12.3534C13.6147 12.24 13.5879 12.1467 13.5477 12.0667C13.5075 11.9867 13.1725 11.1734 13.0385 10.84C12.9045 10.52 12.7638 10.56 12.6633 10.5534H12.3417C12.2278 10.5534 12.0536 10.5934 11.8995 10.76C11.7521 10.9267 11.3233 11.3267 11.3233 12.14C11.3233 12.9534 11.9196 13.74 12 13.8467C12.0804 13.96 13.1725 15.6267 14.8342 16.34C15.2295 16.5133 15.5377 16.6133 15.7789 16.6867C16.1742 16.8133 16.536 16.7933 16.8241 16.7533C17.1457 16.7067 17.809 16.3533 17.943 15.9667C18.0838 15.58 18.0838 15.2534 18.0369 15.18C17.9899 15.1067 17.8894 15.0734 17.7219 14.9934V14.9934Z"
+                                        fill="#55C11D" />
+                                </svg>
+
+                                <svg width="35" height="35" viewBox="0 0 29 27" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="29" height="27" rx="13.5" fill="#EFEFEF" />
+                                    <path
+                                        d="M14.8415 8.0225C14.8927 8.02625 14.9402 8.03 14.9802 8.03562C17.7946 8.46875 19.089 9.80187 19.4471 12.6381C19.4533 12.6862 19.4546 12.745 19.4552 12.8069C19.459 13.0287 19.4665 13.49 19.9615 13.4994H19.9765C20.1321 13.4994 20.2552 13.4525 20.344 13.36C20.4977 13.1994 20.4877 12.96 20.4783 12.7675C20.4765 12.72 20.4746 12.6756 20.4746 12.6362C20.5108 9.73625 17.9996 7.10562 15.1021 7.00813C15.0896 7.00813 15.0783 7.00813 15.0671 7.01C15.0557 7.01144 15.0442 7.01207 15.0327 7.01188C15.0033 7.01188 14.9683 7.00938 14.9302 7.00688C14.8852 7.00375 14.8333 7 14.7802 7C14.319 7 14.2315 7.32813 14.2202 7.52375C14.1946 7.97562 14.6315 8.0075 14.8415 8.0225V8.0225ZM19.3115 16.3037C19.2511 16.2578 19.1913 16.2112 19.1321 16.1637C18.8246 15.9162 18.4977 15.6887 18.1821 15.4681L17.9852 15.3306C17.5802 15.0462 17.2165 14.9081 16.8727 14.9081C16.409 14.9081 16.0052 15.1644 15.6715 15.6687C15.524 15.8925 15.3446 16.0012 15.124 16.0012C14.9707 15.9959 14.8204 15.9582 14.6827 15.8906C13.3765 15.2981 12.4427 14.3894 11.909 13.19C11.6508 12.61 11.7346 12.2312 12.1883 11.9225C12.4465 11.7475 12.9258 11.4219 12.8927 10.7975C12.854 10.0894 11.2908 7.9575 10.6321 7.71562C10.3505 7.6129 10.0418 7.61202 9.75959 7.71312C9.00271 7.9675 8.46021 8.415 8.18834 9.00562C7.92584 9.57687 7.93834 10.2475 8.22209 10.945C9.04396 12.9619 10.199 14.7206 11.6558 16.1719C13.0815 17.5925 14.834 18.7556 16.864 19.63C17.0471 19.7087 17.239 19.7519 17.3796 19.7831C17.4271 19.7937 17.4683 19.8031 17.4983 19.8112C17.5148 19.8157 17.5319 19.818 17.549 19.8181H17.5652C18.5202 19.8181 19.6671 18.9456 20.019 17.9512C20.3277 17.08 19.764 16.6494 19.3115 16.3037V16.3037ZM15.264 10.3269C15.1008 10.3306 14.7602 10.3394 14.6408 10.6856C14.5846 10.8481 14.5915 10.9881 14.6608 11.1037C14.7621 11.2725 14.9565 11.325 15.1327 11.3537C15.7733 11.4562 16.1027 11.81 16.1683 12.4681C16.199 12.7744 16.4058 12.9887 16.6702 12.9887C16.6903 12.9887 16.7103 12.9875 16.7302 12.985C17.049 12.9475 17.2033 12.7131 17.1896 12.2887C17.1946 11.8462 16.9633 11.3437 16.569 10.9437C16.174 10.5425 15.6977 10.3162 15.264 10.3269V10.3269Z"
+                                        fill="#5D4BBC" />
+                                </svg>
+                            </div>
+                            <div class="last">
+                                <h2>+7 (865) 33-42-23</h2>
+                                <h5>Ежедневно 10:00 - 20:00</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </main>
+
+        <footer>
+            <div class="footer-wrapper">
+                <svg max-width="133" height="19" viewBox="0 0 133 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M7.52963 1.2C9.01763 1.2 10.3056 1.448 11.3936 1.944C12.4976 2.44 13.3456 3.144 13.9376 4.056C14.5296 4.968 14.8256 6.048 14.8256 7.296C14.8256 8.528 14.5296 9.608 13.9376 10.536C13.3456 11.448 12.4976 12.152 11.3936 12.648C10.3056 13.128 9.01763 13.368 7.52963 13.368H4.14563V18H0.257625V1.2H7.52963ZM7.31363 10.2C8.48163 10.2 9.36963 9.952 9.97763 9.456C10.5856 8.944 10.8896 8.224 10.8896 7.296C10.8896 6.352 10.5856 5.632 9.97763 5.136C9.36963 4.624 8.48163 4.368 7.31363 4.368H4.14563V10.2H7.31363ZM28.3054 18L25.0654 13.32H24.8734H21.4894V18H17.6014V1.2H24.8734C26.3614 1.2 27.6494 1.448 28.7374 1.944C29.8414 2.44 30.6894 3.144 31.2814 4.056C31.8734 4.968 32.1694 6.048 32.1694 7.296C32.1694 8.544 31.8654 9.624 31.2574 10.536C30.6654 11.432 29.8174 12.12 28.7134 12.6L32.4814 18H28.3054ZM28.2334 7.296C28.2334 6.352 27.9294 5.632 27.3214 5.136C26.7134 4.624 25.8254 4.368 24.6574 4.368H21.4894V10.224H24.6574C25.8254 10.224 26.7134 9.968 27.3214 9.456C27.9294 8.944 28.2334 8.224 28.2334 7.296ZM43.3858 18.288C41.6418 18.288 40.0658 17.912 38.6578 17.16C37.2658 16.408 36.1698 15.376 35.3698 14.064C34.5858 12.736 34.1938 11.248 34.1938 9.6C34.1938 7.952 34.5858 6.472 35.3698 5.16C36.1698 3.832 37.2658 2.792 38.6578 2.04C40.0658 1.288 41.6418 0.912 43.3858 0.912C45.1298 0.912 46.6978 1.288 48.0898 2.04C49.4818 2.792 50.5778 3.832 51.3778 5.16C52.1778 6.472 52.5778 7.952 52.5778 9.6C52.5778 11.248 52.1778 12.736 51.3778 14.064C50.5778 15.376 49.4818 16.408 48.0898 17.16C46.6978 17.912 45.1298 18.288 43.3858 18.288ZM43.3858 14.976C44.3778 14.976 45.2738 14.752 46.0738 14.304C46.8738 13.84 47.4978 13.2 47.9458 12.384C48.4098 11.568 48.6418 10.64 48.6418 9.6C48.6418 8.56 48.4098 7.632 47.9458 6.816C47.4978 6 46.8738 5.368 46.0738 4.92C45.2738 4.456 44.3778 4.224 43.3858 4.224C42.3938 4.224 41.4978 4.456 40.6978 4.92C39.8978 5.368 39.2658 6 38.8018 6.816C38.3538 7.632 38.1298 8.56 38.1298 9.6C38.1298 10.64 38.3538 11.568 38.8018 12.384C39.2658 13.2 39.8978 13.84 40.6978 14.304C41.4978 14.752 42.3938 14.976 43.3858 14.976Z"
+                        fill="#242424" />
+                    <path
+                        d="M70.3367 18.288C68.6247 18.288 67.0727 17.92 65.6807 17.184C64.3047 16.432 63.2167 15.4 62.4167 14.088C61.6327 12.76 61.2407 11.264 61.2407 9.6C61.2407 7.936 61.6327 6.448 62.4167 5.136C63.2167 3.808 64.3047 2.776 65.6807 2.04C67.0727 1.288 68.6327 0.912 70.3607 0.912C71.8167 0.912 73.1287 1.168 74.2967 1.68C75.4807 2.192 76.4727 2.928 77.2727 3.888L74.7767 6.192C73.6407 4.88 72.2327 4.224 70.5527 4.224C69.5127 4.224 68.5847 4.456 67.7687 4.92C66.9527 5.368 66.3127 6 65.8487 6.816C65.4007 7.632 65.1767 8.56 65.1767 9.6C65.1767 10.64 65.4007 11.568 65.8487 12.384C66.3127 13.2 66.9527 13.84 67.7687 14.304C68.5847 14.752 69.5127 14.976 70.5527 14.976C72.2327 14.976 73.6407 14.312 74.7767 12.984L77.2727 15.288C76.4727 16.264 75.4807 17.008 74.2967 17.52C73.1127 18.032 71.7927 18.288 70.3367 18.288ZM87.6827 18.288C85.9387 18.288 84.3627 17.912 82.9547 17.16C81.5627 16.408 80.4667 15.376 79.6667 14.064C78.8827 12.736 78.4907 11.248 78.4907 9.6C78.4907 7.952 78.8827 6.472 79.6667 5.16C80.4667 3.832 81.5627 2.792 82.9547 2.04C84.3627 1.288 85.9387 0.912 87.6827 0.912C89.4267 0.912 90.9947 1.288 92.3867 2.04C93.7787 2.792 94.8747 3.832 95.6747 5.16C96.4747 6.472 96.8747 7.952 96.8747 9.6C96.8747 11.248 96.4747 12.736 95.6747 14.064C94.8747 15.376 93.7787 16.408 92.3867 17.16C90.9947 17.912 89.4267 18.288 87.6827 18.288ZM87.6827 14.976C88.6747 14.976 89.5707 14.752 90.3707 14.304C91.1707 13.84 91.7947 13.2 92.2427 12.384C92.7067 11.568 92.9387 10.64 92.9387 9.6C92.9387 8.56 92.7067 7.632 92.2427 6.816C91.7947 6 91.1707 5.368 90.3707 4.92C89.5707 4.456 88.6747 4.224 87.6827 4.224C86.6907 4.224 85.7947 4.456 84.9947 4.92C84.1947 5.368 83.5627 6 83.0987 6.816C82.6507 7.632 82.4267 8.56 82.4267 9.6C82.4267 10.64 82.6507 11.568 83.0987 12.384C83.5627 13.2 84.1947 13.84 84.9947 14.304C85.7947 14.752 86.6907 14.976 87.6827 14.976ZM99.7967 1.2H107.429C109.253 1.2 110.861 1.552 112.253 2.256C113.661 2.944 114.749 3.92 115.517 5.184C116.301 6.448 116.693 7.92 116.693 9.6C116.693 11.28 116.301 12.752 115.517 14.016C114.749 15.28 113.661 16.264 112.253 16.968C110.861 17.656 109.253 18 107.429 18H99.7967V1.2ZM107.237 14.808C108.917 14.808 110.253 14.344 111.245 13.416C112.253 12.472 112.757 11.2 112.757 9.6C112.757 8 112.253 6.736 111.245 5.808C110.253 4.864 108.917 4.392 107.237 4.392H103.685V14.808H107.237ZM132.633 14.88V18H119.625V1.2H132.321V4.32H123.489V7.968H131.289V10.992H123.489V14.88H132.633Z"
+                        fill="#45FE84" />
+                </svg>
+                <div>
+                    Школа программирования<br>
+                    <u>Политика кондефициальности</u>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+
+
+    <script src="./js/app.js"></script>
+    <script src="./js/wow.min.js"></script>
+        <script>
+              new WOW().init();
+        </script>
+
+</body>
+
+</html>

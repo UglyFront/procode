@@ -1,0 +1,307 @@
+@media  (max-width: 1440px){
+
+    .courses-container {
+        padding: 70px 40px 120px;
+    }
+
+    // .course__img {
+    //     width: 400px;
+    // }
+
+    // .course__inner {
+    //     width: 400px;
+    // }
+    
+}
+
+@media  (max-width: 1250px) {
+    .main-menu,
+    .main-nav__messagers,
+    .headear-contacts {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .headear-contacts--adaptive {
+        display: block;
+    }
+
+    .main-nav__messagers--adaptive {
+        display: flex;
+    }
+
+
+    .banner__header {
+        font-size: 35px;
+    }
+
+    .advantages__img {
+        display: none;
+    }
+
+   
+
+    .franchise__description-box {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .map-conatiner {
+        width:  100%;
+        height:  100%;
+    }
+    
+    .map-container__content-zone {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+    }
+    .map-wrapper {
+        width: 100%;
+    }
+    iframe {
+        min-width: 100%;
+    }
+
+    .invite {
+        margin: 0 auto;
+        margin-top: 20px;
+    }    
+}
+
+
+
+@media  (max-width: 950px) {
+
+    .presentation_chest,
+    .presentation__rocket {
+        display: none;
+        
+    }
+    
+    .courses-container {
+        padding: 70px 15px 120px;
+    }
+
+    .course__inner {
+        max-width: 344px;
+    }
+
+    .course__preview {
+        height: 214px;
+    }
+
+  
+
+   .header-two-lvl__connect {
+    margin-top: -150px;
+    }
+
+    .connect-container {
+        height: 1200px;
+    }
+
+    .connect__flex-wrapper {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+@media  (max-width: 850px) {
+    .banner__form {
+        display: none;
+    }
+
+    .banner__send--adaptive-link {
+        display: block;
+    }
+
+    .banner__header {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    .advantages-box {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+  
+
+    #forma {
+        display: block;
+        margin: 0 auto;
+       
+
+
+    }
+
+}
+
+@media  (max-width: 750px) {
+    // .course__img {
+    //     width: 250px;
+    // }
+
+    // .course__inner {
+    //     max-width: 250px;
+    // }
+
+    // .course__preview {
+    //     height: 154px;
+    // }
+    
+    // .course__description {
+    //     padding: 0 10px;
+    // }
+
+    // .course__description__header {
+    //     font-size: 18px;
+    // }
+    
+    // .course__sign-up {
+    //     font-size: 20px;
+    // }
+
+}
+
+
+@media  (max-width: 600px) {
+
+
+
+    .container {
+        padding: 0 10px;
+    }
+
+
+    .adaptive-nav__inner {
+        padding: 30px 20px;
+    }
+
+
+    .banner__header {
+        font-size: 25px;
+    }
+
+
+    .franchise-container {
+        padding: 80px 10px;
+    }
+
+    .profit-girl {
+        display: none;
+    }
+
+    .franchise__description__header {
+        font-size: 22px;
+        text-align: center;
+
+    }
+
+    .franchise__description__text {
+        font-size: 15px;    
+        text-align: center;
+        width: 100%;
+    }
+     
+    .franchise__profit__header {
+        font-size: 25px;
+        width: 100%;
+    }
+    
+    .presentation__img {
+        display: none;
+    }
+
+    .course {
+        min-width: 100%;
+    }
+
+    .courses__header {
+        font-size: 25px;
+    }
+}
+
+@media  (max-width: 500px) {
+    .header-two-lvl__connect {
+        font-size: 18px;
+        display: block;
+    }
+}
+
+
+@media  (max-width: 450px) {
+    .main-menu__link--adaptive {
+        font-size: 20px;
+    }
+
+
+    #forma {
+       min-width: 100%;
+    }
+}
+
+@media  (max-width: 550px) {
+    .connect__info {
+        width: 95%;
+    }
+    .connect__info__el img {
+        display: none;
+    }
+
+    
+    .connect__info-wrapper {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .header-two-lvl__connect {
+        font-size: 15px;
+        // word-break: break-all;
+        text-align: center;
+    }
+
+}
+
+
+@media  (max-width: 385px) {
+    #blocked #window {
+        height: 380px;
+    }
+
+
+    .connect__info-wrapper {
+        max-width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0 40px;
+    }
+
+    .quetions__accordeon {
+        height: 600px;
+    }
+
+    .header-two-lvl__connect {
+        font-size: 15px;
+        // word-break: break-all;
+        text-align: center;
+    }
+
+
+
+}
+

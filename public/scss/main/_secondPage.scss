@@ -1,0 +1,187 @@
+.second-page-wrapper {
+    overflow-x: hidden;
+}
+
+
+.first-section {
+    color: #fff;
+}
+
+.first-section__header {
+    padding-top: 25px;
+    margin-bottom: 60px;
+}
+
+
+.first-section__text {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 40px auto;
+    max-width: 1200px;
+}
+
+
+
+
+
+
+
+
+.second-section__accent-row {
+    position: relative;
+    color: #000;
+    background: #fff;
+    min-width: 100vw;
+}
+
+.second-section__inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 24px;
+    padding: 60px 0;
+
+}
+
+.second-section__text {
+    margin: 40px 0;
+}
+
+
+
+
+// СУМКА И КУБОК 
+
+.cup {
+    position: absolute;
+    top: 20%;
+    left: -7%;
+}
+
+.bag {
+    position: absolute;
+    right: -7%;
+    top: -20%;
+
+}
+
+
+// ДЕКОР ЛИНИИ ВО ВТОРОЙ СЕКЦИИ
+.second-section-decor--top {
+    background-image: url("../../images/decor-item.svg");
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: -6%;
+    left: 0;
+
+}
+
+.second-section-decor--bottom {
+    background-image: url("../../images/decor-item.svg");
+    width: 100%;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    bottom: -6%;
+    transform: rotate(180deg);
+
+
+}
+
+
+
+.third-section {
+    color: #fff;
+    padding: 70px 0;
+    text-align: center;
+    position: relative;
+}
+
+.third-section__text {
+    font-size: 32px;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin: 45px auto;
+    font-weight: 400;
+}   
+
+
+
+
+// ЧЕТВЕРТАЯ СЕКЦИЯ
+
+.fourth-section {
+    position: relative;
+    background: #fff;
+    padding: 40px 0;
+    margin: 50px 0;
+}
+
+.fourth-section__text {
+    font-size: 24px;
+    max-width: 1200px;
+    margin: 40px auto;
+
+}
+
+
+
+
+
+// ДЕКОРАЦИИ 
+
+.fourth-section__decor-item--top {
+    position: absolute;
+    top: -3%;
+    left: 0;
+    background-image: url('../../images/decor-item.svg');
+    height: 40px;
+    width: 100%;
+
+}
+
+.fourth-section__decor-item--bottom {
+    position: absolute;
+    bottom: -3%;
+    transform: rotate(180deg);
+    z-index: 4;
+    left: 0;
+    background-image: url('../../images/decor-item.svg');
+    height: 40px;
+    width: 100%;
+}
+
+
+.fourth-section-rocket {
+    position: absolute;
+    z-index: 5;
+    right: -4%;
+    top: -80px;
+
+}
+
+.fourth-section-suitcase {
+    position: absolute;
+    z-index: 5;
+    bottom: -10%;
+    left: -5%;
+}
+
+
+.fifth-section {
+    // padding: 40px 0;
+}
+
+.fifth-section__header {
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.second-page-footer {
+    margin-top: 20px;
+    background: #fff;
+    padding: 20px 0 10px 0;
+}

@@ -1,0 +1,77 @@
+.map-conatiner {
+    width: 100%;
+    height: 500px;
+    background: #fff;
+}
+
+.map-container__content-zone {
+    max-width: 1250px;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.map-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.invite {
+    max-width: 360px;
+    height: 480px;
+    padding: 45px;
+    box-shadow: 0px 20px 50px rgb(184, 184, 184);
+    border-radius: 10px;
+}
+
+.invite p {
+    width: 280px;
+    height: 117px;
+    font-size: 16px;
+    word-break: break-all;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.invite-adress {
+    margin-top: 30px;
+    width: 148px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #242424;
+}
+
+.invite-adress span {
+    padding-left: 10px;
+}
+
+.invite-msg {
+    margin-top: 30px;
+    width: 220px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.invite-msg p {
+    font-size: 12px;
+    color: #242424;
+    width: 102px;
+    height: 40px;
+}
+
+.last {
+    margin-top: 30px;
+}
+
+iframe {
+    max-width: 760px;
+    width: 100%;
+}

@@ -1,0 +1,184 @@
+.presentation-container {
+    position: relative;
+}
+.presentation {
+    position: relative;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: center;
+    padding: 100px 0 50px 0;
+    // overflow-x: hidden;
+}
+
+
+
+
+
+// СТИЛИ МОДАЛКИ 
+
+
+.presentation__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba($color: #000000, $alpha: .5);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.presentation__modal-inner {
+    background: #fff;
+    min-width: 290px;
+    max-width: 95%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: auto;
+}
+
+.presentation__modal-header {
+    text-align: center;
+    padding: 0 10px;
+
+}
+
+.callBackPhone {
+    width: 290px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    
+}
+
+#presentation__modal-sendBtn {
+    background: linear-gradient(117.03deg,#00a3ff 0,#398eff 96.88%);
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.showCallBackModal {
+    opacity: 1;
+    visibility: visible;
+    transition: .5s ease-in;
+}
+
+
+
+
+
+
+
+
+.presentation__header {
+    color: #000;
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+
+.presentation__inner {
+    color: #000;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.presentation__get {
+    text-align: left;
+    padding-top: 40px;
+    width: 296px;
+}
+
+.presentation__get__text {
+    width: 288px;
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.presentation__get-btn {
+    border: none;
+    background: linear-gradient(117.03deg, #00A3FF 0%, #398EFF 96.88%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 38px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    display: block;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+
+    &:hover {
+        box-shadow: 0px 0px 24px 22px rgba(0, 0, 0, 0.2);
+
+    }
+
+}
+
+
+.presentation_chest {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.presentation__rocket {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: -3%;
+    bottom: 0;
+}
+
+
+.decor-item-top {
+    width: 100%;
+    height: 20px;
+    top: -3%;
+    position: absolute;
+    background: url("../images/decor-item.svg");
+}
+
+.decor-item-bottom {
+    width: 100%;
+    height: 20px;
+    bottom: -3%;
+    position: absolute;
+    background: url("../images/decor-item.svg");
+    transform: rotate(180deg);
+}
+
+
+
+

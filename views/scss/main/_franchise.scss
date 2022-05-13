@@ -1,0 +1,89 @@
+.franchise-container {
+    padding-top: 80px;
+    position: relative;
+    padding-bottom: 80px;
+}
+
+
+.franchise-container {
+    color: #fff;
+}
+
+
+.franchise__profit__inner {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.franchise__description-box {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.franchise__description__header {
+    font-size: 30px;
+    line-height: 43px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.franchise__description__text {
+    width: 500px;
+    line-height: 25px;
+    margin-top: 40px;
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+.franchise__profit {
+    margin-top: 150px;
+}
+
+
+
+.profit__list-box {
+    text-align: center;
+}
+
+.franchise__profit__header {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 45px;
+}
+
+.profit__list {
+    li {
+        margin: 5px 0;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+    }
+}
+
+
+
+
+.profit__list__item {
+    background: linear-gradient(117.03deg, #00A3FF 0%, #398EFF 96.88%);
+    padding: 20px 50px;
+    display: inline-block;
+    border-radius: 5px;
+
+}
+
+
+
+.franchise__decor-item-bottom {
+    width: 100%;
+    bottom: -1%;
+    height: 20px;
+    position: absolute;
+    transform: rotate(180deg);
+    z-index: 2;
+    background: url("../images/decor-item.svg");
+}
