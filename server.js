@@ -96,6 +96,6 @@ router.get("/secondPage", (req, res) => {
 })
 
 
-app.listen(2222, () => {
-    console.log(`start on 2222`)
+app.listen(80, () => {
+    console.log(`start on 80`)
 })
