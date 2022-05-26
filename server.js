@@ -85,17 +85,17 @@ router.get("/cb", async (req, res) => {
 
 
 
-router.get("/home", (req, res) => {
+router.get("/", (req, res) => {
   res.status(200).render("./index.html")
 })
 
 
-router.get("/secondPage", (req, res) => {
+router.get("/subsidy", (req, res) => {
   console.log(__dirname)
   res.status(200).render("./secondPage.html")
 })
 
 
 app.listen(80, () => {
-    console.log(`start on 80`)
+    console.log(`start on 80 PORT`)
 })

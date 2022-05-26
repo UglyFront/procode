@@ -1,4 +1,4 @@
-const ADRESS = "62.113.110.179";
+const ADRESS = "62.113.103.192";
 
 let slider = document.getElementById("courses__slider");
 let sliderHandler = document.getElementById("slider-handler");
@@ -28,8 +28,8 @@ adaptiveNav.addEventListener("click", (e) => headerHandler(e));
 const courses = [
     {
         id: 1,
-        name: "Введение Minecraft Education Edition",
-        descr: "Изучение основ программирования на легендарной платформе Майкрософт.",
+        name: "Основы программирования в Minecraft",
+        descr: "Введение в IT на платформе Education Edition.",
         age: "7 - 12 лет",
         duration: "~9 месяцев",
         img: "https://news.microsoft.com/wp-content/uploads/prod/sites/243/2017/05/Key-Art-Copy.png"
@@ -45,7 +45,7 @@ const courses = [
     },
     {
         id: 3,
-        name: "Основы Python в Майнкрафте",
+        name: "Основы Python в Minecraft",
         descr: "Изучение Python через популярную игру.",
         age: "9 - 12 лет",
         duration: "~9 месяцев",
@@ -81,7 +81,7 @@ const courses = [
     },
     {
         id: 7,
-        name: "Математика в Майнкрафт",
+        name: "Математика в Minecraft",
         descr: "Изучение основ математики и логики на популярной платформе.",
         age: "7 - 11 лет",
         duration: "~9 месяцев",
@@ -137,7 +137,7 @@ const courses = [
     },
     {
         id: 14,
-        name: "Создание модов в Майнкрафт",
+        name: "Создание модов в Minecraft",
         descr: "Основы 3D моделирования и знакомство с языком Java.",
         age: "7 - 12 лет",
         duration: "~3 месяца",
@@ -145,7 +145,7 @@ const courses = [
     },
     {
         id: 15,
-        name: "Изи офис",
+        name: "Easy Office",
         descr: "Базовый и продвинутый курсы по Microsoft Office.",
         age: "8 - 13 лет",
         duration: "~6 месяцев",
@@ -165,7 +165,7 @@ function render() {
    courses.forEach((i) => {
     
         slider.innerHTML +=
-            `<div class="course">
+            `<div class="course" style="cursor: grab">
         
             <div class="course__inner">
     
@@ -197,6 +197,75 @@ function render() {
 
      // <button class="course__sign-up">Записаться</button>
 }
+
+
+let slider__wrapper = document.querySelector(".courses__slider")
+
+
+let stateSlick = false
+let firstX = null
+
+
+slider__wrapper.addEventListener("pointerdown", (e) => {
+    console.log(stateSlick)
+    stateSlick = true
+    firstX = e.clientX
+})
+
+slider__wrapper.addEventListener("pointermove", (e) => {
+    const slideAll = document.querySelectorAll(".course")
+    let width = slideAll[0].offsetWidth // 1 слайд
+
+    if (stateSlick && firstX - e.clientX > 0) {
+        slideAll.forEach(el =>  {
+            el.style.transform += `translateX(-${width + 100}px)`
+        })
+        page++
+    } 
+
+
+    else if (stateSlick && firstX - e.clientX < 0) {
+        slideAll.forEach(el =>  {
+            el.style.transform += `translateX(${width + 100}px)`
+        })
+
+        if (page != 0) {
+            page--
+        }
+    }  
+
+
+
+    if (page >= courses.length) {
+        page = 0
+        for (i = 0; i < slideAll.length; i++) {
+            slideAll[i].style.transform = `translateX(0px)`
+        }
+    }
+
+    else if (page <= 0) {
+        for (i = 0; i < slideAll.length; i++) {
+            slideAll[i].style.transform = `translateX(0px)`
+        }
+        // for (i = 0; i < slideAll.length; i++) {
+        // slideAll[i].style.transform += `translateX(-${slideAll.length * ( width  + 100) - 445}px)`;
+        // }
+    }
+
+
+    stateSlick = false
+})
+
+
+
+
+slider__wrapper.addEventListener("pointerup", () => {
+    console.log(stateSlick)
+    stateSlick = false
+})
+
+
+
 
 
 
@@ -241,10 +310,10 @@ function decr() {
 
 
     if (page <= 0) {
-        page = slideAll.length - 1
-        for (i = 0; i < slideAll.length; i++) {
-        slideAll[i].style.transform += `translateX(-${slideAll.length * ( width  + 100) - 445}px)`;
-        }
+        // page = slideAll.length - 1
+        // for (i = 0; i < slideAll.length; i++) {
+        // slideAll[i].style.transform += `translateX(-${slideAll.length * ( width  + 100) - 445}px)`;
+        // }
     }
     else {
         page--
@@ -266,9 +335,9 @@ render();
 
 
 
-let interval = setInterval(() => {
-    incr(true)
-}, 5500)
+// let interval = setInterval(() => {
+//     incr(true)
+// }, 5500)
 
 
 //ACCORDEON

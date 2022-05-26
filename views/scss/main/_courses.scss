@@ -2,7 +2,6 @@
     padding: 70px 150px 120px 150px;
     position: relative;
     background: #fff;
-
 }
 
 
@@ -54,16 +53,12 @@
     color: #000;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
-    transition: .5s ease-in-out;
+    // transition: .5s ease-in-out;
     // box-shadow: 0px 0px 51px #808080;
+
 
     img {
         height: 200px;
-    }
-
-    &:hover {
-        transform: scale(0.9);
-        cursor: pointer;
     }
 
 }
