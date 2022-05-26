@@ -402,11 +402,11 @@ function mail() {
 
 
         if ((body.name && body.phone && body.email && body.city) != "") {
-            fetch(`http://${ADRESS}:80/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
+            fetch(`http://${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
             .then(alert("Мы свяжемся с Вами в ближайшее время!"))
         }
         else {
-            alert("Форма пуста...")
+            alert("Заполните все поля...")
         }
 
 
@@ -425,11 +425,11 @@ function mail2() {
 
 
     if ((body.name && body.phone && body.email && body.city) != "") {
-        fetch(`http://${ADRESS}:80/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
+        fetch(`http://${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
         .then(alert("Мы свяжемся с Вами в ближайшее время!"))
     }
     else {
-        alert("Форма пуста...")
+        alert("Заполните все поля...")
     }
 
 }
@@ -452,11 +452,11 @@ const cbBtn = document.querySelector("#presentation__modal-sendBtn")
 
 cbBtn.onclick = () => {
     if ((cbName.value && cbPhone.value && cbQuestion.value) != "") {
-        fetch(`http://${ADRESS}:80/cb?n=${cbName.value}&p=${cbPhone.value}&q=${cbQuestion.value}`)
+        fetch(`http://${ADRESS}/cb?n=${cbName.value}&p=${cbPhone.value}&q=${cbQuestion.value}`)
         .then(alert("Мы свяжемся с Вами в ближайшее время!"))
     }
     else {
-        alert("Форма пуста...")
+        alert("Заполните все поля...")
     }
 } // cb
 
