@@ -1,4 +1,4 @@
-const ADRESS = "62.113.103.192";
+const ADRESS = "62.113.110.179";
 
 let slider = document.getElementById("courses__slider");
 let sliderHandler = document.getElementById("slider-handler");
