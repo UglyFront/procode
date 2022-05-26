@@ -6,7 +6,7 @@ const nodemailer = require('nodemailer')
 const app = express()
 
 app.use(cors({
-    origin: "62.113.103.192"
+    origin: "http://pro-cod.com"
 }))
 
 app.use(router)
