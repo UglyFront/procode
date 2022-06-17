@@ -32,7 +32,7 @@ const courses = [
         descr: "Введение в IT на платформе Education Edition.",
         age: "7 - 12 лет",
         duration: "~9 месяцев",
-        img: "https://news.microsoft.com/wp-content/uploads/prod/sites/243/2017/05/Key-Art-Copy.png"
+        img: "https://i.playground.ru/e/hpqWcNtqmjm1MigeWWZ3sw.png"
 
     },
     {
