@@ -1,4 +1,4 @@
-const ADRESS = "pro-cod.com";
+const ADRESS = "//pro-cod.com";
 
 let slider = document.getElementById("courses__slider");
 let sliderHandler = document.getElementById("slider-handler");
@@ -403,7 +403,7 @@ function mail() {
 
 
         if ((body.name && body.phone && body.email && body.city) != "") {
-            fetch(`https://${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
+            fetch(`${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
             .then(alert("Мы свяжемся с Вами в ближайшее время!"))
         }
         else {
@@ -426,7 +426,7 @@ function mail2() {
 
 
     if ((body.name && body.phone && body.email && body.city) != "") {
-        fetch(`https://${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
+        fetch(`${ADRESS}/mail?name=${body.name}&phone=${body.phone}&email=${body.email}&city=${body.city}`)
         .then(alert("Мы свяжемся с Вами в ближайшее время!"))
     }
     else {
@@ -453,7 +453,7 @@ const cbBtn = document.querySelector("#presentation__modal-sendBtn")
 
 cbBtn.onclick = () => {
     if ((cbName.value && cbPhone.value && cbQuestion.value) != "") {
-        fetch(`https://${ADRESS}/cb?n=${cbName.value}&p=${cbPhone.value}&q=${cbQuestion.value}`)
+        fetch(`${ADRESS}/cb?n=${cbName.value}&p=${cbPhone.value}&q=${cbQuestion.value}`)
         .then(alert("Мы свяжемся с Вами в ближайшее время!"))
     }
     else {
