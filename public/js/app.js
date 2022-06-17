@@ -1,5 +1,7 @@
 const ADRESS = "//pro-cod.com";
 
+alert(2282228228)
+
 let slider = document.getElementById("courses__slider");
 let sliderHandler = document.getElementById("slider-handler");
 let adaptiveNav = document.getElementById("adaptive-nav");
