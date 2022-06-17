@@ -93,7 +93,7 @@ const courses = [
         descr: "Курc по использованию графического планшета в Photoshop.",
         age: "10 - 15 лет",
         duration: "~6 месяцев",
-        img: "https://itc.ua/wp-content/uploads/2019/11/5c810a98ec05c4bb24000137-5.jpg"
+        img: "https://img.gazeta.ru/files3/491/14603491/Depositphotos_336911852_XL-pic_32ratio_900x600-900x600-7837.jpg"
     },
     {
         id: 9,
@@ -109,7 +109,7 @@ const courses = [
         descr: "Изучение основ программирование на языке Lua.",
         age: "9 - 12 лет",
         duration: "~9 месяцев",
-        img: "https://itc.ua/wp-content/uploads/2021/11/kak-ustanovit-igru-roblox-i-igrat-v-nee-na-ubuntu.jpg"
+        img: "https://newxboxone.ru/wp-content/uploads/2021/10/roblox-best-games-roblox-main-promo-image_large.jpg"
     },
     {
         id: 11,
@@ -152,6 +152,7 @@ const courses = [
         img: "https://office-download.net/templates/newsoft/icon/office-2020/microsoft-office-2020.jpg"
     },
 ];
+
 
 
 
@@ -467,32 +468,32 @@ cbBtn.onclick = () => {
 
 //MODAL
 
-const blocked = document.querySelector("#blocked")
-const modal = document.querySelector("#window")
-const close = document.querySelector("#close_modal")
+// const blocked = document.querySelector("#blocked")
+// const modall = document.querySelector("#window")
+// const close = document.querySelector("#close_modal")
 
 
-setTimeout(() => {
-    blocked.style.opacity = 1;
-    blocked.style.zIndex = 100;
-    modal.style.transform = "translateX(0%)"
-}, 5060)
-
-
-
-
-
-function closed() {
-    modal.style.transition = "1s ease-in-out"
-    blocked.style.transition = "1s"
-    blocked.style.opacity = 0;
-    blocked.style.zIndex = -100;
-    modal.style.transform = "translateX(-300%)";
-}
+// setTimeout(() => {
+//     blocked.style.opacity = 1;
+//     blocked.style.zIndex = 100;
+//     modall.style.transform = "translateX(0%)"
+// }, 5060)
 
 
 
-modal.onclick = (e) => stopPropagat(e)
+
+
+// function closed() {
+//     modall.style.transition = "1s ease-in-out"
+//     blocked.style.transition = "1s"
+//     blocked.style.opacity = 0;
+//     blocked.style.zIndex = -100;
+//     modall.style.transform = "translateX(-300%)";
+// }
+
+
+
+// modall.onclick = (e) => stopPropagat(e)
 
 
 

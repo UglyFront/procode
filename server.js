@@ -27,7 +27,7 @@ let transporter = nodemailer.createTransport({
     secure: false,
     auth: {
       user: "ivanserov360@gmail.com",
-      pass: "dav48177",
+      pass: "vfvnkohhzvckktwy",
     },
 })
 
@@ -46,7 +46,7 @@ router.get("/mail", async (req, res) => {
           <h1>${name} из города ${city} оставил заявку, его контакты: ${phone}, ${email}</h1>
           `,
       })
-    
+
       console.log(result)
       res.status(200).json()
     }
