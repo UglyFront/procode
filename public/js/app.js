@@ -1,4 +1,4 @@
-const ADRESS = "62.113.110.179";
+const ADRESS = "pro-cod.com";
 
 let slider = document.getElementById("courses__slider");
 let sliderHandler = document.getElementById("slider-handler");
